@@ -25,3 +25,28 @@ for info in my_list1 :
 print()
 
 print(my_list1)
+my_list1[4] = 'Thailand'
+print(my_list1)
+
+#list method
+my_list2 = [10, 20, True, 10, 'SAU' , [20, 'Iot']]
+my_list2.append('Wow')
+print(my_list2)
+my_list2.append([111,222,333])
+print(my_list2)
+my_list2.extend([444,555])
+print(my_list2)
+my_list2.remove(10) #เอาออกตัวเดียว ตัวแรกที่เจอ
+my_list2.remove('SAU')
+my_list2.remove([111,222,333])
+print(my_list2)
+my_list2.pop()
+my_list2.pop()
+my_list2.pop()
+print(my_list2)
+my_list2.pop(2) # 2 คือ index
+print(my_list2)
+
+#list คือ ฟังก์ชัน -> len( ) , min(), max()
+my_list3 = [10, 20 , 30, True]
+print(len[my_list3])
